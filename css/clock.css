@@ -1,0 +1,9 @@
+#clock {
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  margin-bottom: 0;
+  margin-top: 30px;
+  text-shadow: 2px 2px 15px rgb(255, 255, 255);
+}

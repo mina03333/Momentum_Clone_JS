@@ -1,0 +1,38 @@
+#greeting {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 15px rgb(255, 255, 255);
+}
+
+#login-form {
+  text-align: center;
+}
+
+#login-form-input {
+  color: white;
+  width: 20%;
+  height: 30px;
+  border: none;
+  border-bottom: solid 1px rgb(255, 255, 255);
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+#login-form-input::placeholder {
+  color: rgb(255, 255, 255);
+  font-family: "Allerta", sans-serif;
+  text-align: center;
+}
+
+#submit-button {
+  background-color: transparent;
+  border: none;
+  border-color: white;
+}
+
+#submit-button[value="Log In"] {
+  color: rgb(255, 255, 255);
+  font-family: "Allerta", sans-serif;
+  text-align: center;
+  cursor: pointer;
+}

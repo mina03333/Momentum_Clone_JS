@@ -1,0 +1,38 @@
+#todo-section-first {
+  width: 22%;
+  height: 450px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: linear-gradient(45deg, rgb(236, 160, 198), rgb(135, 146, 212));
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px rgb(190, 183, 183);
+}
+
+#todo-section-second {
+  position: relative;
+  background-color: white;
+  opacity: 70%;
+  width: 82%;
+  height: 380px;
+  top: 30px;
+  left: 30px;
+  border-radius: 20px;
+  box-shadow: 9px 9px rgb(226, 215, 215);
+}
+
+#todo-form-input::placeholder {
+  color: rgb(155, 149, 149);
+  font-family: "Allerta", sans-serif;
+}
+
+#todo-form-input {
+  display: flex;
+  color: rgb(129, 126, 126);
+  text-align: center;
+  width: 90%;
+  height: 30px;
+  border: none;
+  border-bottom: solid 1px rgb(160, 155, 155);
+  background-color: transparent;
+}
